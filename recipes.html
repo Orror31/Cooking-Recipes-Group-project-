@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/index_style.css">
+
+    <!--Bootstrap5 css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--external css-->
+    <script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/index_style.css">
+
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+  }
+  
+
+h1{
+    font-family: stencil;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    height: 450px;
+  }
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  .card-text {
+    color: #555;
+  }
+.btn-primary{
+    background-color: #ff6f61;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+.btn-primary:hover{
+    background-color: rgba(253, 76, 6, 0.871)
+}
+    </style>
+</head>
+<body>
+    
+  <nav class="mt-3" style="margin-right: 80px;">
+    <div class="navbar text-dark p-2" style=" height: 12%;
+    display:flex;
+    align-items: center;">
+        <nav class="mt-2" style="flex: 1;
+        text-align: right;">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link" >Home</a></li>
+                <li  class="nav-item"><a href="recipes.html" class="nav-link">Cooking recipes</a></li>
+                <li  class="nav-item"><a href="about.html" class="nav-link">About us</a></li>
+            </ul>
+        </nav>
+    </div><br>
+</nav>
+
+    <div class="container py-5">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card">
+                    <img src="Images/banana on fire.jpg" alt="Fried Banana with Honey" style="border-top-left-radius: 15px; border-top-right-radius: 15px;  height: 250px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Fried Banana with Honey</h5>
+                      <p class="card-text">Indulge in this delicious dessert, perfect for Thanksgiving.</p>
+                      <a href="banana.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            
+            </div>
+
+            <div class="col">
+                <div class="card" id="cookie">
+                    <img src="images/cha.jpg" alt="Taylor Swift Chai Cookies" style="border-top-left-radius: 15px; border-top-right-radius: 15px;  height: 250px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Cookies</h5>
+                      <p class="card-text">These cookies are amazingly delicious, perfect for FALL.</p>
+                      <a href="chai.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="images/mac and cheese.jpg" alt="Mac and Cheese" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">Mac and Cheese</h5>
+                      <p class="card-text">Quick and easy to make, creamy Mac and cheese, perfect for a nice family dinner.</p>
+                      <a href="mac.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div> 
+            </div>
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card" id="juice">
+                    <img src="Images/ssss.jpg" alt="Blue blueberry-protein-shake" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">Blueberry Smoothies</h5>
+                      <p class="card-text">This is my own recipe, and it's fantastic. I told you, SEE. 😊</p>
+                      <a href="blue.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            
+            </div>
+
+            <div class="col">
+                <div class="card" id="juice">
+                    <img src="images/matcha.jpg" alt="Ice Matcha Latte" style="border-top-left-radius: 15px; border-top-right-radius: 15px;  height: 250px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Ice Matcha Latte</h5>
+                      <p class="card-text">The easiest way to make matcha at home, perfect for any time of the day.</p>
+                      <a href="matcha.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card" id="apple">
+                    <img src="images/granola.jpg" alt="Apple Granola" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple Granola</h5>
+                      <p class="card-text">This is an amazing snack, quick and easy to make, and delicious. Top one in the snack competition! ❤️</p>
+                      <a href="apple.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div> 
+            </div>
+
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card" id="pizza">
+                    <img src="https://www.allrecipes.com/thmb/0xH8n2D4cC97t7mcC7eT2SDZ0aE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6776_Pizza-Dough_ddmfs_2x1_1725-fdaa76496da045b3bdaadcec6d4c5398.jpg" alt="Apple Granola" style="border-top-left-radius: 15px; border-top-right-radius: 15px;  height: 250px;">
+                    <div class="card-body">
+                      <h5 class="card-title">pizza</h5>
+                      <p class="card-text">This is an amazing meal, takes a little time but delicious.</p>
+                      <a href="pizza.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://neighborfoodblog.com/wp-content/uploads/2020/03/garden-salad-3-720x405.jpg"  style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; ">
+                    <div class="card-body">
+                      <h5 class="card-title">Greek salad</h5>
+                      <p class="card-text">This is an amazing meal, takes a little time but delicious.</p>
+                      <a href="greek.html" class="btn btn-primary">See More</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col">
+                <div class="card" >
+                    <img src="https://grantourismotravels.com/wp-content/uploads/2021/10/Burmese-Green-Mango-Salad-Recipe-Copyright-2022-Terence-Carter-Grantourismo-T-870x420.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 225px;" >
+                    <div class="card-body">
+                      <h5 class="card-title">Burmese Chilli Prawns with Hot & Sour Asian Slaw Recipe</h5>
+                      <p class="card-text">This is an amazing meal, takes a little time but delicious and spicy</p>
+                      <a href="prawns.html" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card" id="curry">
+                    <img src="https://foodhub.scene7.com/is/image/woolworthsltdprod/1606-thaigreenseafoodcurry:Desktop-1300x658" style="border-top-left-radius: 15px; border-top-right-radius: 15px;height: 250px; " >
+                    <div class="card-body">
+                      <h5 class="card-title">Thai Grern Curry</h5>
+                      <p class="card-text">This is an amazing meal, takes a little time but delicious and It's thai</p>
+                      <a href="tahi.html" class="btn btn-primary">See More</a>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+
+       
+    </div>
+    <div class="container-fluid p-0" style="margin-top: 50px;">
+        <div class="row bg-light">
+            <div class="col-md-12 text-center ">
+                <p style="font-size: 30px; font-weight:initial;">Contact us</p>
+                <ul class="nav" style="justify-content: center;">
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-youtube fa-2xl" style="color: red;"></i></a></li>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-x-twitter fa-2xl" style="color: black;"></i></a></li>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-square-instagram fa-2xl" style="color: rgb(239, 6, 188);"></i></a></li>&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-telegram fa-2xl"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa-brands fa-whatsapp fa-2xl" style="color: rgb(0, 255, 89);"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </ul>
+               
+            </div>
+        </div>
+    
+    <div class="row ">
+        <div class="col-md-12 text-center bg-light text-dark-50 p-3">
+           
+            <span class="shadow">2023 &copy; by EDUSN year-8 Fuchsia student</span>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!--Bootstrap 5 js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
